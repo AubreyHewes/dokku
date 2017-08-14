@@ -11,6 +11,7 @@ storage_help_content_func() {
     storage:mount <app> <host-dir:container-dir>, Create a new bind mount
     storage:report [<app>] [<flag>], Displays a checks report for one or more apps
     storage:unmount <app> <host-dir:container-dir>, Remove an existing bind mount
+    storage:backup <app> [<location>], Backup app bind mounts to location else stdout
 help_content
 }
 
